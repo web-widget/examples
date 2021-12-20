@@ -1,0 +1,21 @@
+{
+  "name": "web-widget-examples",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=16",
+    "npm": ">=7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-widget/examples.git"
+  },
+  "author": "aui",
+  "bugs": {
+    "url": "https://github.com/web-widget/examples/issues"
+  },
+  "homepage": "https://github.com/web-widget/examples#readme"
+}
