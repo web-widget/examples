@@ -1,89 +1,100 @@
 lockfileVersion: '6.0'
 
-dependencies:
-  '@web-widget/helpers':
-    specifier: ^1.10.0
-    version: 1.10.1
-  '@web-widget/html':
-    specifier: ^1.10.0
-    version: 1.10.1(@web-widget/helpers@1.10.1)(@worker-tools/html@2.0.0-pre.13)
-  '@web-widget/node':
-    specifier: ^1.10.0
-    version: 1.10.1
-  '@web-widget/react':
-    specifier: ^1.10.0
-    version: 1.10.1(@web-widget/helpers@1.10.1)(@web-widget/web-router@1.10.1)(@web-widget/web-widget@1.10.1)(react-dom@18.3.0-canary-03d6f7cf0-20240209)(react@18.3.0-canary-03d6f7cf0-20240209)(vite@5.0.12)
-  '@web-widget/vue':
-    specifier: ^1.10.0
-    version: 1.10.1(@web-widget/helpers@1.10.1)(@web-widget/web-router@1.10.1)(@web-widget/web-widget@1.10.1)(vite@5.0.12)(vue@3.4.8)
-  '@web-widget/web-router':
-    specifier: ^1.10.0
-    version: 1.10.1(@web-widget/helpers@1.10.1)(@web-widget/html@1.10.1)
-  '@web-widget/web-widget':
-    specifier: ^1.10.0
-    version: 1.10.1(@web-widget/helpers@1.10.1)
-  koa:
-    specifier: ^2.14.2
-    version: 2.14.2
-  koa-connect:
-    specifier: ^2.1.0
-    version: 2.1.0
-  koa-send:
-    specifier: ^5.0.1
-    version: 5.0.1
-  react:
-    specifier: canary
-    version: 18.3.0-canary-03d6f7cf0-20240209
-  react-dom:
-    specifier: canary
-    version: 18.3.0-canary-03d6f7cf0-20240209(react@18.3.0-canary-03d6f7cf0-20240209)
-  vue:
-    specifier: ^3.4.8
-    version: 3.4.8(typescript@5.3.3)
+importers:
 
-devDependencies:
-  '@jest/globals':
-    specifier: ^29.6.2
-    version: 29.6.2
-  '@pnpm/find-workspace-dir':
-    specifier: ^6.0.2
-    version: 6.0.2
-  '@types/jest':
-    specifier: ^29.5.3
-    version: 29.5.3
-  '@types/koa':
-    specifier: ^2.13.6
-    version: 2.13.6
-  '@types/koa-send':
-    specifier: ^4.1.3
-    version: 4.1.3
-  '@types/react':
-    specifier: ^18.2.47
-    version: 18.2.47
-  '@types/react-dom':
-    specifier: ^18.2.18
-    version: 18.2.18
-  '@vitejs/plugin-react':
-    specifier: ^4.1.1
-    version: 4.1.1(vite@5.0.12)
-  '@vitejs/plugin-vue':
-    specifier: ^5.0.0
-    version: 5.0.0(vite@5.0.12)(vue@3.4.8)
-  '@web-widget/vite-plugin':
-    specifier: ^1.10.0
-    version: 1.10.1(@web-widget/helpers@1.10.1)(@web-widget/web-router@1.10.1)(@web-widget/web-widget@1.10.1)(vite@5.0.12)
-  jest:
-    specifier: ^29.6.2
-    version: 29.6.2
-  ts-jest:
-    specifier: ^29.1.1
-    version: 29.1.1(@babel/core@7.23.9)(jest@29.6.2)(typescript@5.3.3)
-  typescript:
-    specifier: latest
-    version: 5.3.3
-  vite:
-    specifier: ^5.0.12
-    version: 5.0.12
+  .:
+    devDependencies:
+      c8:
+        specifier: latest
+        version: 8.0.1
+      prettier:
+        specifier: latest
+        version: 3.2.5
+
+  basic:
+    dependencies:
+      '@web-widget/helpers':
+        specifier: ^1.10.3
+        version: 1.10.3
+      '@web-widget/html':
+        specifier: ^1.10.3
+        version: 1.10.3(@web-widget/helpers@1.10.3)(@worker-tools/html@2.0.0-pre.13)
+      '@web-widget/node':
+        specifier: ^1.10.3
+        version: 1.10.3
+      '@web-widget/react':
+        specifier: ^1.10.3
+        version: 1.10.3(@web-widget/helpers@1.10.3)(@web-widget/web-router@1.10.3)(@web-widget/web-widget@1.10.3)(react-dom@18.3.0-canary-03d6f7cf0-20240209)(react@18.3.0-canary-03d6f7cf0-20240209)(vite@5.0.12)
+      '@web-widget/vue':
+        specifier: ^1.10.3
+        version: 1.10.3(@web-widget/helpers@1.10.3)(@web-widget/web-router@1.10.3)(@web-widget/web-widget@1.10.3)(vite@5.0.12)(vue@3.4.8)
+      '@web-widget/web-router':
+        specifier: ^1.10.3
+        version: 1.10.3(@web-widget/helpers@1.10.3)(@web-widget/html@1.10.3)
+      '@web-widget/web-widget':
+        specifier: ^1.10.3
+        version: 1.10.3(@web-widget/helpers@1.10.3)
+      koa:
+        specifier: ^2.14.2
+        version: 2.14.2
+      koa-connect:
+        specifier: ^2.1.0
+        version: 2.1.0
+      koa-send:
+        specifier: ^5.0.1
+        version: 5.0.1
+      react:
+        specifier: canary
+        version: 18.3.0-canary-03d6f7cf0-20240209
+      react-dom:
+        specifier: canary
+        version: 18.3.0-canary-03d6f7cf0-20240209(react@18.3.0-canary-03d6f7cf0-20240209)
+      vue:
+        specifier: ^3.4.8
+        version: 3.4.8(typescript@5.3.3)
+    devDependencies:
+      '@jest/globals':
+        specifier: ^29.6.2
+        version: 29.6.2
+      '@pnpm/find-workspace-dir':
+        specifier: ^6.0.2
+        version: 6.0.2
+      '@types/jest':
+        specifier: ^29.5.3
+        version: 29.5.3
+      '@types/koa':
+        specifier: ^2.13.6
+        version: 2.13.6
+      '@types/koa-send':
+        specifier: ^4.1.3
+        version: 4.1.3
+      '@types/react':
+        specifier: ^18.2.47
+        version: 18.2.47
+      '@types/react-dom':
+        specifier: ^18.2.18
+        version: 18.2.18
+      '@vitejs/plugin-react':
+        specifier: ^4.1.1
+        version: 4.1.1(vite@5.0.12)
+      '@vitejs/plugin-vue':
+        specifier: ^5.0.0
+        version: 5.0.0(vite@5.0.12)(vue@3.4.8)
+      '@web-widget/vite-plugin':
+        specifier: ^1.10.3
+        version: 1.10.3(@web-widget/helpers@1.10.3)(@web-widget/web-router@1.10.3)(@web-widget/web-widget@1.10.3)(vite@5.0.12)
+      jest:
+        specifier: ^29.6.2
+        version: 29.6.2
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.23.9)(jest@29.6.2)(typescript@5.3.3)
+      typescript:
+        specifier: latest
+        version: 5.3.3
+      vite:
+        specifier: ^5.0.12
+        version: 5.0.12
 
 packages:
 
@@ -91,8 +102,8 @@ packages:
     resolution: {integrity: sha512-lFMjJTrFL3j7L9yBxwYfCq2k6qqwHyzuUl/XBnif78PWTJYyL/dfowQHWE3sp6U6ZzqWiiIZnpTMO96zhkjwtg==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.3
-      '@jridgewell/trace-mapping': 0.3.22
+      '@jridgewell/gen-mapping': 0.3.4
+      '@jridgewell/trace-mapping': 0.3.23
     dev: true
 
   /@babel/code-frame@7.23.5:
@@ -136,8 +147,8 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.23.9
-      '@jridgewell/gen-mapping': 0.3.3
-      '@jridgewell/trace-mapping': 0.3.22
+      '@jridgewell/gen-mapping': 0.3.4
+      '@jridgewell/trace-mapping': 0.3.23
       jsesc: 2.5.2
     dev: true
 
@@ -780,7 +791,7 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@jridgewell/trace-mapping': 0.3.22
+      '@jridgewell/trace-mapping': 0.3.23
       '@types/node': 20.11.20
       chalk: 4.1.2
       collect-v8-coverage: 1.0.2
@@ -814,7 +825,7 @@ packages:
     resolution: {integrity: sha512-MHjT95QuipcPrpLM+8JMSzFx6eHp5Bm+4XeFDJlwsvVBjmKNiIAvasGK2fxz2WbGRlnvqehFbh07MMa7n3YJnw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.22
+      '@jridgewell/trace-mapping': 0.3.23
       callsites: 3.1.0
       graceful-fs: 4.2.11
     dev: true
@@ -845,7 +856,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.9
       '@jest/types': 29.6.3
-      '@jridgewell/trace-mapping': 0.3.22
+      '@jridgewell/trace-mapping': 0.3.23
       babel-plugin-istanbul: 6.1.1
       chalk: 4.1.2
       convert-source-map: 2.0.0
@@ -874,13 +885,13 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@jridgewell/gen-mapping@0.3.3:
-    resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
+  /@jridgewell/gen-mapping@0.3.4:
+    resolution: {integrity: sha512-Oud2QPM5dHviZNn4y/WhhYKSXksv+1xLEIsNrAbGcFzUN3ubqWRFT5gwPchNc5NuzILOU4tPBDTZ4VwhL8Y7cw==}
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/set-array': 1.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@jridgewell/trace-mapping': 0.3.22
+      '@jridgewell/trace-mapping': 0.3.23
     dev: true
 
   /@jridgewell/resolve-uri@3.1.2:
@@ -896,8 +907,8 @@ packages:
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
-  /@jridgewell/trace-mapping@0.3.22:
-    resolution: {integrity: sha512-Wf963MzWtA2sjrNt+g18IAln9lKnlRp+K2eH4jjIoF1wYeq3aMREpG09xhlhdzS0EjwU7qmUJYangWa+151vZw==}
+  /@jridgewell/trace-mapping@0.3.23:
+    resolution: {integrity: sha512-9/4foRoUKp8s96tSkh8DlAAc5A0Ty8vLXld+l9gjKKY6ckwI8G15f0hskGmuLZu78ZlGa1vtsfOa+lnB4vG6Jg==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -1355,41 +1366,41 @@ packages:
   /@vue/shared@3.4.8:
     resolution: {integrity: sha512-ChLCWzXiJboQ009oVkemhEoUdrxHme7v3ip+Kh+/kDDeF1WtHWGt0knRLGm1Y4YqCRTSs9QxsZIY8paJj5Szrw==}
 
-  /@web-widget/helpers@1.10.1:
-    resolution: {integrity: sha512-A9uqHSia+i5duAmf3n9TjDfyYAsCxvCCZqQ+d57tgPMrCJYhShH/Db+/WmoStyPoXD5Tc1L/YaOFX78tPiXDnw==}
+  /@web-widget/helpers@1.10.3:
+    resolution: {integrity: sha512-fk0RI2//nXo3d/AjwubVj5O3tfe/x68y9NLvML1hLanp/HKzZzerAaPa+EgEVmDVXx+9q3wY/ajJhifivMEQrQ==}
     dependencies:
-      '@web-widget/schema': 1.10.1
+      '@web-widget/schema': 1.10.3
       unctx: 2.3.1
 
-  /@web-widget/html@1.10.1(@web-widget/helpers@1.10.1)(@worker-tools/html@2.0.0-pre.13):
-    resolution: {integrity: sha512-AMDhyf0088vcSvQd9BJZn8w9Q7ZBq8Acp/uFrAm+Ecq0voGJGPPlP2XEicR9uR6FCfLihEtRpxDcQs8fA2N8Ow==}
+  /@web-widget/html@1.10.3(@web-widget/helpers@1.10.3)(@worker-tools/html@2.0.0-pre.13):
+    resolution: {integrity: sha512-7fM6qIL7wc4+Jpkrh/ju/OeVntCcP1GictFlT+9UW8HBQIqaOcCVsKSXbno1JN3rL1hfedSpRlwNQ6VswYpShw==}
     peerDependencies:
-      '@web-widget/helpers': 1.10.1
+      '@web-widget/helpers': 1.10.3
       '@worker-tools/html': ^2.0.0-pre.13
     dependencies:
-      '@web-widget/helpers': 1.10.1
+      '@web-widget/helpers': 1.10.3
       '@worker-tools/html': 2.0.0-pre.13
       whatwg-stream-to-async-iter: 0.6.2
 
-  /@web-widget/node@1.10.1:
-    resolution: {integrity: sha512-l8kiwu1NSeLkuYAQ2/kBo+EeDjhwtu+qTzi8cFm58XlqZLlDEJueEA924BkMxbrIhAFdHKyUuYQMApLA0tkumg==}
+  /@web-widget/node@1.10.3:
+    resolution: {integrity: sha512-GP8lSgfSy+aAtoyOnCSbTJvGbJuaExkxWVxsxPPCm5xDFtyvjFjnANuY5cYZzyiGDgU1EipmD/5RBbeWnLOZ/Q==}
     engines: {node: '>=18'}
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
       '@edge-runtime/primitives': 4.1.0
 
-  /@web-widget/react@1.10.1(@web-widget/helpers@1.10.1)(@web-widget/web-router@1.10.1)(@web-widget/web-widget@1.10.1)(react-dom@18.3.0-canary-03d6f7cf0-20240209)(react@18.3.0-canary-03d6f7cf0-20240209)(vite@5.0.12):
-    resolution: {integrity: sha512-kauuu8fUGK35Qg9T2Ur1u0LCbm9mXu4ubTA8OmmHlHv72UJYp+XjEq79RbrQq12ddE8h93fjAfmZmFwIDmfwUQ==}
+  /@web-widget/react@1.10.3(@web-widget/helpers@1.10.3)(@web-widget/web-router@1.10.3)(@web-widget/web-widget@1.10.3)(react-dom@18.3.0-canary-03d6f7cf0-20240209)(react@18.3.0-canary-03d6f7cf0-20240209)(vite@5.0.12):
+    resolution: {integrity: sha512-CnuFNQkdJVT+jLBjzjI5OmGxBV9+rCqh5IebijxFAPMc4+AUg7b4uWtALej2bZD2WKtPP3szbejgi7jz4wsbIw==}
     peerDependencies:
-      '@web-widget/helpers': 1.10.1
-      '@web-widget/web-widget': 1.10.1
+      '@web-widget/helpers': 1.10.3
+      '@web-widget/web-widget': 1.10.3
       react: canary
       react-dom: canary
       vite: ^5.0.12
     dependencies:
-      '@web-widget/helpers': 1.10.1
-      '@web-widget/vite-plugin': 1.10.1(@web-widget/helpers@1.10.1)(@web-widget/web-router@1.10.1)(@web-widget/web-widget@1.10.1)(vite@5.0.12)
-      '@web-widget/web-widget': 1.10.1(@web-widget/helpers@1.10.1)
+      '@web-widget/helpers': 1.10.3
+      '@web-widget/vite-plugin': 1.10.3(@web-widget/helpers@1.10.3)(@web-widget/web-router@1.10.3)(@web-widget/web-widget@1.10.3)(vite@5.0.12)
+      '@web-widget/web-widget': 1.10.3(@web-widget/helpers@1.10.3)
       react: 18.3.0-canary-03d6f7cf0-20240209
       react-dom: 18.3.0-canary-03d6f7cf0-20240209(react@18.3.0-canary-03d6f7cf0-20240209)
       vite: 5.0.12
@@ -1398,23 +1409,23 @@ packages:
       - rollup
     dev: false
 
-  /@web-widget/schema@1.10.1:
-    resolution: {integrity: sha512-FAzcLmTOSliLJk7ROPA9ixIUE9cpFg+/XuOFpRp7cmEMmvOfb4IPASzdp0Vd3dHLouy4y9TICqG4o4P4SIHvcA==}
+  /@web-widget/schema@1.10.3:
+    resolution: {integrity: sha512-b5FW+20M86i5KCRCF5X+tliCKAmcUv+GvqW6ZU1NFOLMkRn0IVv7TKHyGFF/Qk42UfhopUDQntOM7PGFp4g2YQ==}
 
-  /@web-widget/vite-plugin@1.10.1(@web-widget/helpers@1.10.1)(@web-widget/web-router@1.10.1)(@web-widget/web-widget@1.10.1)(vite@5.0.12):
-    resolution: {integrity: sha512-/36vFwTjFq3f5GoYbw2w16Uhx6elBxTR5IEyfdBGCuzR/fRV8xK6ikxilM/B3ARekxDT9mUb08WJ5s46sSubvg==}
+  /@web-widget/vite-plugin@1.10.3(@web-widget/helpers@1.10.3)(@web-widget/web-router@1.10.3)(@web-widget/web-widget@1.10.3)(vite@5.0.12):
+    resolution: {integrity: sha512-RkkNuRSQdXdZspGAeFqGBf85qZ6UWQpA7x2JShaTx8To04tJXkBYNyVd1gOYTL2PxjcTmF+xY/nhimRJZLK36w==}
     engines: {node: ^14.18 || >= 16.0.0}
     peerDependencies:
-      '@web-widget/helpers': 1.10.1
-      '@web-widget/web-router': 1.10.1
-      '@web-widget/web-widget': 1.10.1
+      '@web-widget/helpers': 1.10.3
+      '@web-widget/web-router': 1.10.3
+      '@web-widget/web-widget': 1.10.3
       vite: ^5.0.12
     dependencies:
       '@rollup/pluginutils': 5.1.0
-      '@web-widget/helpers': 1.10.1
-      '@web-widget/node': 1.10.1
-      '@web-widget/web-router': 1.10.1(@web-widget/helpers@1.10.1)(@web-widget/html@1.10.1)
-      '@web-widget/web-widget': 1.10.1(@web-widget/helpers@1.10.1)
+      '@web-widget/helpers': 1.10.3
+      '@web-widget/node': 1.10.3
+      '@web-widget/web-router': 1.10.3(@web-widget/helpers@1.10.3)(@web-widget/html@1.10.3)
+      '@web-widget/web-widget': 1.10.3(@web-widget/helpers@1.10.3)
       builtin-modules: 3.3.0
       es-module-lexer: 1.4.1
       magic-string: 0.30.7
@@ -1425,17 +1436,17 @@ packages:
     transitivePeerDependencies:
       - rollup
 
-  /@web-widget/vue@1.10.1(@web-widget/helpers@1.10.1)(@web-widget/web-router@1.10.1)(@web-widget/web-widget@1.10.1)(vite@5.0.12)(vue@3.4.8):
-    resolution: {integrity: sha512-cXvXJyDpz0KIhJ0GuV8+OAibnIsFkJyU1kdSF7HeLfgeL05lYXmgJrgb4TRusVNJPs1L2uNyNeO0Ucla9TAj3g==}
+  /@web-widget/vue@1.10.3(@web-widget/helpers@1.10.3)(@web-widget/web-router@1.10.3)(@web-widget/web-widget@1.10.3)(vite@5.0.12)(vue@3.4.8):
+    resolution: {integrity: sha512-5wz+eEpux2YiHAUjcKgTb/dpt5Dp2G01YrjhVUluJYgahcQlOpc4mg1wNYF0y28wECPUng4Si3aZI8CjEoDGFg==}
     peerDependencies:
-      '@web-widget/helpers': 1.10.1
-      '@web-widget/web-widget': 1.10.1
+      '@web-widget/helpers': 1.10.3
+      '@web-widget/web-widget': 1.10.3
       vite: ^5.0.12
       vue: '>3.3.3'
     dependencies:
-      '@web-widget/helpers': 1.10.1
-      '@web-widget/vite-plugin': 1.10.1(@web-widget/helpers@1.10.1)(@web-widget/web-router@1.10.1)(@web-widget/web-widget@1.10.1)(vite@5.0.12)
-      '@web-widget/web-widget': 1.10.1(@web-widget/helpers@1.10.1)
+      '@web-widget/helpers': 1.10.3
+      '@web-widget/vite-plugin': 1.10.3(@web-widget/helpers@1.10.3)(@web-widget/web-router@1.10.3)(@web-widget/web-widget@1.10.3)(vite@5.0.12)
+      '@web-widget/web-widget': 1.10.3(@web-widget/helpers@1.10.3)
       vite: 5.0.12
       vue: 3.4.8(typescript@5.3.3)
     transitivePeerDependencies:
@@ -1443,21 +1454,21 @@ packages:
       - rollup
     dev: false
 
-  /@web-widget/web-router@1.10.1(@web-widget/helpers@1.10.1)(@web-widget/html@1.10.1):
-    resolution: {integrity: sha512-wEzkj15+LgRLT1qoCqZAUNB2CHlCLfIn+O8ZfOsiB/PXLr1B1iCZFSdJQLLi+VpiQyhmK7SSk8BDEZQXhEs5eQ==}
+  /@web-widget/web-router@1.10.3(@web-widget/helpers@1.10.3)(@web-widget/html@1.10.3):
+    resolution: {integrity: sha512-cFmSO8qa/v60GIIRn+pyIeH7vNve3XymzXjx8UrQpnwNAmgWMUNO8PxeunVYQrw1pwtukl4fb2JM+4u2ee+3IA==}
     peerDependencies:
-      '@web-widget/helpers': 1.10.1
-      '@web-widget/html': 1.10.1
+      '@web-widget/helpers': 1.10.3
+      '@web-widget/html': 1.10.3
     dependencies:
-      '@web-widget/helpers': 1.10.1
-      '@web-widget/html': 1.10.1(@web-widget/helpers@1.10.1)(@worker-tools/html@2.0.0-pre.13)
+      '@web-widget/helpers': 1.10.3
+      '@web-widget/html': 1.10.3(@web-widget/helpers@1.10.3)(@worker-tools/html@2.0.0-pre.13)
 
-  /@web-widget/web-widget@1.10.1(@web-widget/helpers@1.10.1):
-    resolution: {integrity: sha512-TQ1LvJaZu8EWRo+m/Ekw4llpm9Bq2bNgZMvlhGwyM2GDeuF6fWlN4KcrRsNW0pEIwfr4FkT9yx3QlGQFKBKLQg==}
+  /@web-widget/web-widget@1.10.3(@web-widget/helpers@1.10.3):
+    resolution: {integrity: sha512-7zC4yAdTljIDkjFVlvlIWH6jfT0GlechI3eDHqnib/Fa9RGDb8xe7t9zi/p4Px/FcJ0alzyks36WyTIZCxE1xQ==}
     peerDependencies:
-      '@web-widget/helpers': 1.10.1
+      '@web-widget/helpers': 1.10.3
     dependencies:
-      '@web-widget/helpers': 1.10.1
+      '@web-widget/helpers': 1.10.3
 
   /@worker-tools/html@2.0.0-pre.13:
     resolution: {integrity: sha512-MkmUNNX6fE/2tRM8iWpoSZ6hbZ4srMxzecPdyNvT4cydfYs6YEmFFv0w27839ALQxwtpsDCOKlDLEkhhzbMs9Q==}
@@ -1655,6 +1666,25 @@ packages:
   /builtin-modules@3.3.0:
     resolution: {integrity: sha512-zhaCDicdLuWN5UbN5IMnFqNMhNfo919sH85y2/ea+5Yg9TsTkeZxpL+JLbp6cgYFS4sRLp3YV4S6yDuqVWHYOw==}
     engines: {node: '>=6'}
+
+  /c8@8.0.1:
+    resolution: {integrity: sha512-EINpopxZNH1mETuI0DzRA4MZpAUH+IFiRhnmFD3vFr3vdrgxqi3VfE3KL0AIL+zDq8rC9bZqwM/VDmmoe04y7w==}
+    engines: {node: '>=12'}
+    hasBin: true
+    dependencies:
+      '@bcoe/v8-coverage': 0.2.3
+      '@istanbuljs/schema': 0.1.3
+      find-up: 5.0.0
+      foreground-child: 2.0.0
+      istanbul-lib-coverage: 3.2.2
+      istanbul-lib-report: 3.0.1
+      istanbul-reports: 3.1.7
+      rimraf: 3.0.2
+      test-exclude: 6.0.0
+      v8-to-istanbul: 9.2.0
+      yargs: 17.7.2
+      yargs-parser: 21.1.1
+    dev: true
 
   /cache-content-type@1.0.1:
     resolution: {integrity: sha512-IKufZ1o4Ut42YUrZSo8+qnMTrFuKkvyoLXUywKz9GJ5BrhOFGhLdkx9sG4KAnVvbY6kEcSFjLQul+DVmBm2bgA==}
@@ -2042,6 +2072,14 @@ packages:
     dependencies:
       locate-path: 6.0.0
       path-exists: 4.0.0
+    dev: true
+
+  /foreground-child@2.0.0:
+    resolution: {integrity: sha512-dCIq9FpEcyQyXKCkyzmlPTFNgrCzPudOe+mhvJU5zAtlBnGVy2yKxtfsxK2tQBThwq225jcvBjpw1Gr40uzZCA==}
+    engines: {node: '>=8.0.0'}
+    dependencies:
+      cross-spawn: 7.0.3
+      signal-exit: 3.0.7
     dev: true
 
   /fresh@0.5.2:
@@ -3088,6 +3126,12 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
   /pretty-format@29.7.0:
     resolution: {integrity: sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -3178,6 +3222,13 @@ packages:
       is-core-module: 2.13.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
+    dev: true
+
+  /rimraf@3.0.2:
+    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    hasBin: true
+    dependencies:
+      glob: 7.2.3
     dev: true
 
   /rollup@4.12.0:
@@ -3492,7 +3543,7 @@ packages:
     resolution: {integrity: sha512-/EH/sDgxU2eGxajKdwLCDmQ4FWq+kpi3uCmBGpw1xJtnAxEjlD8j8PEiGWpCIMIs3ciNAgH0d3TTJiUkYzyZjA==}
     engines: {node: '>=10.12.0'}
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.22
+      '@jridgewell/trace-mapping': 0.3.23
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
     dev: true

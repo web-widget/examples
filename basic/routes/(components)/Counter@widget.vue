@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-const props = defineProps(['name', 'start']);
+const props = defineProps(['count']);
 
-const count = ref(props.start);
+const count = ref(props.count);
 </script>
 
 <template>

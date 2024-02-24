@@ -11,13 +11,13 @@ export default defineRouteComponent(function Page() {
   return (
     <BaseLayout>
       <h1>Welcome to Web Widget.</h1>
-      <p>Try to update this message in the ./routes/index@route.tsx file.</p>
+      <p>Try to update this message in the <code>./routes/index@route.tsx</code> file.</p>
 
       <h2>React</h2>
-      <ReactCounter name="React Counter" start={0} />
+      <ReactCounter count={0} />
 
       <h2>Vue</h2>
-      <VueCounter name="Vue3 Counter" start={0} />
+      <VueCounter count={0} />
     </BaseLayout>
   );
 });
