@@ -2,7 +2,7 @@
 
 This template integrates React and Vue.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/web-widget/examples/tree/main/basic)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/web-widget/examples/tree/main/vue)
 
 ## Dev
 

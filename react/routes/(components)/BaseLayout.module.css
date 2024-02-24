@@ -35,6 +35,15 @@ a[target="_blank"]::after {
   padding: 20px 40px 40px 40px;
 }
 
+.main code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: rgba(175,184,193,0.2);
+  border-radius: 6px;
+}
+
 .footer {
   max-width: 750px;
   margin: auto;

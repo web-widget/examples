@@ -7,10 +7,6 @@
     {
       "pathname": "/",
       "module": "routes/index@route.tsx"
-    },
-    {
-      "pathname": "/vue-route",
-      "module": "routes/vue-route/index@route.vue"
     }
   ],
   "middlewares": [

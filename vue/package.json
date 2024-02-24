@@ -1,7 +1,17 @@
 {
-  "name": "@examples/basic",
+  "name": "@examples/vue",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://github.com/web-widget/examples#readme",
+  "bugs": {
+    "url": "https://github.com/web-widget/examples/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-widget/examples.git",
+    "directory": "vue"
+  },
+  "author": "aui",
   "type": "module",
   "scripts": {
     "build": "vite build",
@@ -42,14 +52,5 @@
   },
   "engines": {
     "node": ">=18"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/web-widget/examples.git"
-  },
-  "author": "aui",
-  "bugs": {
-    "url": "https://github.com/web-widget/examples/issues"
-  },
-  "homepage": "https://github.com/web-widget/examples#readme"
+  }
 }
