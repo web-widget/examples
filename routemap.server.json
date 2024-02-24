@@ -1,0 +1,19 @@
+{
+  "routes": [
+    {
+      "pathname": "/about",
+      "module": "routes/about@route.tsx"
+    },
+    {
+      "pathname": "/",
+      "module": "routes/index@route.tsx"
+    }
+  ],
+  "middlewares": [
+    {
+      "pathname": "/(.*)",
+      "module": "routes/(middlewares)/[...]@middleware.ts"
+    }
+  ],
+  "fallbacks": []
+}
