@@ -1,6 +1,6 @@
 import { defineRouteComponent, defineMeta } from '@web-widget/react';
-import ReactCounter from './(components)/Counter@widget.tsx';
 import BaseLayout from './(components)/BaseLayout.tsx';
+import ReactCounter from './(components)/Counter@widget.tsx';
 import VueCounter from './(components)/Counter@widget.vue?as=jsx';
 
 export const meta = defineMeta({
