@@ -4,10 +4,9 @@ This template integrates React and Vue.
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/web-widget/examples/tree/main/basic)
 
-## Examples
+## Dev
 
 ```shell
-cd basic
 pnpm install
 pnpm dev
 ```

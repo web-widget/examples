@@ -9,8 +9,7 @@
     "prettier": "latest"
   },
   "engines": {
-    "node": ">=16",
-    "npm": ">=7"
+    "node": ">=18"
   },
   "scripts": {
     "build": "turbo run build",
