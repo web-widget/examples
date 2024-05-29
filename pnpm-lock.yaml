@@ -6,7 +6,7 @@ importers:
     devDependencies:
       c8:
         specifier: latest
-        version: 8.0.1
+        version: 9.1.0
       prettier:
         specifier: latest
         version: 3.2.5
@@ -14,26 +14,26 @@ importers:
   react:
     dependencies:
       '@web-widget/helpers':
-        specifier: ^1.10.25
-        version: 1.10.25
+        specifier: ^1.19.0
+        version: 1.19.0
       '@web-widget/html':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/helpers@1.10.25)(@worker-tools/html@2.0.0-pre.13)
+        specifier: ^1.19.0
+        version: 1.19.0
       '@web-widget/node':
-        specifier: ^1.10.25
-        version: 1.10.25
+        specifier: ^1.19.0
+        version: 1.19.0
       '@web-widget/react':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(react-dom@18.3.0-canary-03d6f7cf0-20240209)(react@18.3.0-canary-03d6f7cf0-20240209)(vite@5.0.12)
+        specifier: ^1.19.0
+        version: 1.19.0(react-dom@18.3.0-canary-03d6f7cf0-20240209)(react@18.3.0-canary-03d6f7cf0-20240209)(vite@5.0.12)
       '@web-widget/vue':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(vite@5.0.12)(vue@3.4.8)
+        specifier: ^1.19.0
+        version: 1.19.0(vite@5.0.12)(vue@3.4.8)
       '@web-widget/web-router':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/context@1.10.25)(@web-widget/helpers@1.10.25)(@web-widget/html@1.10.25)
+        specifier: ^1.19.0
+        version: 1.19.0
       '@web-widget/web-widget':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/context@1.10.25)(@web-widget/helpers@1.10.25)
+        specifier: ^1.19.0
+        version: 1.19.0
       koa:
         specifier: ^2.14.2
         version: 2.14.2
@@ -51,7 +51,7 @@ importers:
         version: 18.3.0-canary-03d6f7cf0-20240209(react@18.3.0-canary-03d6f7cf0-20240209)
       vue:
         specifier: ^3.4.8
-        version: 3.4.8(typescript@5.4.2)
+        version: 3.4.8(typescript@5.4.5)
     devDependencies:
       '@jest/globals':
         specifier: ^29.6.2
@@ -81,17 +81,17 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0(vite@5.0.12)(vue@3.4.8)
       '@web-widget/vite-plugin':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(vite@5.0.12)
+        specifier: ^1.19.0
+        version: 1.19.0(vite@5.0.12)
       jest:
         specifier: ^29.6.2
         version: 29.6.2
       ts-jest:
         specifier: ^29.1.1
-        version: 29.1.1(@babel/core@7.23.9)(jest@29.6.2)(typescript@5.4.2)
+        version: 29.1.1(@babel/core@7.23.9)(jest@29.6.2)(typescript@5.4.5)
       typescript:
         specifier: latest
-        version: 5.4.2
+        version: 5.4.5
       vite:
         specifier: ^5.0.12
         version: 5.0.12
@@ -99,26 +99,26 @@ importers:
   vue:
     dependencies:
       '@web-widget/helpers':
-        specifier: ^1.10.25
-        version: 1.10.25
+        specifier: ^1.19.0
+        version: 1.19.0
       '@web-widget/html':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/helpers@1.10.25)(@worker-tools/html@2.0.0-pre.13)
+        specifier: ^1.19.0
+        version: 1.19.0
       '@web-widget/node':
-        specifier: ^1.10.25
-        version: 1.10.25
+        specifier: ^1.19.0
+        version: 1.19.0
       '@web-widget/react':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(react-dom@18.3.0-canary-03d6f7cf0-20240209)(react@18.3.0-canary-03d6f7cf0-20240209)(vite@5.0.12)
+        specifier: ^1.19.0
+        version: 1.19.0(react-dom@18.3.0-canary-03d6f7cf0-20240209)(react@18.3.0-canary-03d6f7cf0-20240209)(vite@5.0.12)
       '@web-widget/vue':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(vite@5.0.12)(vue@3.4.8)
+        specifier: ^1.19.0
+        version: 1.19.0(vite@5.0.12)(vue@3.4.8)
       '@web-widget/web-router':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/context@1.10.25)(@web-widget/helpers@1.10.25)(@web-widget/html@1.10.25)
+        specifier: ^1.19.0
+        version: 1.19.0
       '@web-widget/web-widget':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/context@1.10.25)(@web-widget/helpers@1.10.25)
+        specifier: ^1.19.0
+        version: 1.19.0
       koa:
         specifier: ^2.14.2
         version: 2.14.2
@@ -136,7 +136,7 @@ importers:
         version: 18.3.0-canary-03d6f7cf0-20240209(react@18.3.0-canary-03d6f7cf0-20240209)
       vue:
         specifier: ^3.4.8
-        version: 3.4.8(typescript@5.4.2)
+        version: 3.4.8(typescript@5.4.5)
     devDependencies:
       '@jest/globals':
         specifier: ^29.6.2
@@ -166,17 +166,17 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0(vite@5.0.12)(vue@3.4.8)
       '@web-widget/vite-plugin':
-        specifier: ^1.10.25
-        version: 1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(vite@5.0.12)
+        specifier: ^1.19.0
+        version: 1.19.0(vite@5.0.12)
       jest:
         specifier: ^29.6.2
         version: 29.6.2
       ts-jest:
         specifier: ^29.1.1
-        version: 29.1.1(@babel/core@7.23.9)(jest@29.6.2)(typescript@5.4.2)
+        version: 29.1.1(@babel/core@7.23.9)(jest@29.6.2)(typescript@5.4.5)
       typescript:
         specifier: latest
-        version: 5.4.2
+        version: 5.4.5
       vite:
         specifier: ^5.0.12
         version: 5.0.12
@@ -1392,7 +1392,7 @@ packages:
       vue: ^3.2.25
     dependencies:
       vite: 5.0.12
-      vue: 3.4.8(typescript@5.4.2)
+      vue: 3.4.8(typescript@5.4.5)
     dev: true
 
   /@vue/compiler-core@3.4.8:
@@ -1454,78 +1454,75 @@ packages:
     dependencies:
       '@vue/compiler-ssr': 3.4.8
       '@vue/shared': 3.4.8
-      vue: 3.4.8(typescript@5.4.2)
+      vue: 3.4.8(typescript@5.4.5)
 
   /@vue/shared@3.4.8:
     resolution: {integrity: sha512-ChLCWzXiJboQ009oVkemhEoUdrxHme7v3ip+Kh+/kDDeF1WtHWGt0knRLGm1Y4YqCRTSs9QxsZIY8paJj5Szrw==}
 
-  /@web-widget/context@1.10.25:
-    resolution: {integrity: sha512-LsQqbHnyw17auw8CgK6t+46BPWsW5Zw5BIA5M/qbdzZoqH/xAgpZw2rR04yRktmaS7WW7Fxlw5TYQV6h8q8H3Q==}
+  /@web-widget/action@1.19.0:
+    resolution: {integrity: sha512-rrhmQdGYiwgPC7thIuL0aZIxTQ+QyhEgU5CNgkq6KPVgIpIYaQrukxbj4a3nLjQc2yDtU838ESoLHgfTlHue0w==}
+
+  /@web-widget/context@1.19.0:
+    resolution: {integrity: sha512-RZgh+ZYRpdSgxoP3j8Uk/zN/WgFgubWTHu8wxusJ5QArcsr50Awep02d3f3rZY/PeH47ghsSGqgZlj3mIRIznQ==}
     dependencies:
       unctx: 2.3.1
 
-  /@web-widget/helpers@1.10.25:
-    resolution: {integrity: sha512-p7BNt38g8OH+BbvDCTe/8K9iqbLmYCJRPF0KZ+zgkomSK1U5CYsgXTT3MYnQL8FykZDOTgHoTaLGwM7jZeVm2A==}
+  /@web-widget/helpers@1.19.0:
+    resolution: {integrity: sha512-GJm48CY91HvutZbIf9qSinmMVPft1XPltVuvVOp8SkGOgPDI07T/ccn9vJ8UyRC99IEwHAEHe1q0j8zVDVkXww==}
     dependencies:
       '@edge-runtime/cookies': 4.1.0
       '@edge-runtime/user-agent': 1.4.1
-      '@web-widget/context': 1.10.25
-      '@web-widget/schema': 1.10.25
+      '@web-widget/action': 1.19.0
+      '@web-widget/context': 1.19.0
+      '@web-widget/lifecycle-cache': 1.19.0
 
-  /@web-widget/html@1.10.25(@web-widget/helpers@1.10.25)(@worker-tools/html@2.0.0-pre.13):
-    resolution: {integrity: sha512-utCzsdZjE0efHByXXCkG2RDfoZiIofDTXhURWO5vakKlS7YSB6in5XIM1zf7kZYErc3n8vYEOvpWmviAe92cVQ==}
-    peerDependencies:
-      '@web-widget/helpers': 1.10.25
-      '@worker-tools/html': ^2.0.0-pre.13
+  /@web-widget/html@1.19.0:
+    resolution: {integrity: sha512-nD40CEELP/lRNv90DtFAELv6KOyE4GF/O8k9uoUbkrbL/oN8lH0iRJZ75lyX0pQzt0YD+VgxLuw8Pc1GVUwRMA==}
     dependencies:
-      '@web-widget/helpers': 1.10.25
+      '@web-widget/helpers': 1.19.0
       '@worker-tools/html': 2.0.0-pre.13
       whatwg-stream-to-async-iter: 0.6.2
 
-  /@web-widget/node@1.10.25:
-    resolution: {integrity: sha512-h0z8+VctRAysZUl+mkj4SZdseipBgsM/MD2Ir2v/4c6qaJ/xVT+uOkY3FRDhxWCX0CYYguAMgO6r2XSwE8wbTg==}
+  /@web-widget/lifecycle-cache@1.19.0:
+    resolution: {integrity: sha512-lhIpOL+QjLHlyUE00nIT3Xny2V2c18U9Wytrst5d6jlFYOipEppCPhG9aKzv+OwoMqQRt8le3j8xB9UcSzJbhw==}
+    dependencies:
+      '@web-widget/context': 1.19.0
+
+  /@web-widget/node@1.19.0:
+    resolution: {integrity: sha512-pR+FEh/yUBFoqkppaefdqH0uC8VAVZoev79jKgL6kKanbxyPwyYz0eBeEBfTyCsQVMZ2vqv+d2qrFZxED3eehQ==}
     engines: {node: '>=18'}
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
       '@edge-runtime/primitives': 4.1.0
 
-  /@web-widget/react@1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(react-dom@18.3.0-canary-03d6f7cf0-20240209)(react@18.3.0-canary-03d6f7cf0-20240209)(vite@5.0.12):
-    resolution: {integrity: sha512-OWsdlwmPUnOEBaUnSQ754hu1Yif9uOZGSGjGIphkjS2Ei8W8QnWvgp4fp9977kqg3/bwbUr0hWrl6lPancSJFw==}
+  /@web-widget/react@1.19.0(react-dom@18.3.0-canary-03d6f7cf0-20240209)(react@18.3.0-canary-03d6f7cf0-20240209)(vite@5.0.12):
+    resolution: {integrity: sha512-DlAQ8VhYUkZsIrGXmEBiBlBTR5mPFAJiKPpzmO5lFetTil9FHKQOIvwfcw8OeR0PIaoKV9uyhzpIR/mQqywtZQ==}
     peerDependencies:
-      '@web-widget/helpers': 1.10.25
-      '@web-widget/web-widget': 1.10.25
       react: canary
       react-dom: canary
-      vite: ^5.0.12
+      vite: ^5.0.13
     dependencies:
-      '@web-widget/helpers': 1.10.25
-      '@web-widget/vite-plugin': 1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(vite@5.0.12)
-      '@web-widget/web-widget': 1.10.25(@web-widget/context@1.10.25)(@web-widget/helpers@1.10.25)
+      '@web-widget/helpers': 1.19.0
+      '@web-widget/vite-plugin': 1.19.0(vite@5.0.12)
+      '@web-widget/web-widget': 1.19.0
       react: 18.3.0-canary-03d6f7cf0-20240209
       react-dom: 18.3.0-canary-03d6f7cf0-20240209(react@18.3.0-canary-03d6f7cf0-20240209)
       vite: 5.0.12
     transitivePeerDependencies:
-      - '@web-widget/web-router'
       - rollup
     dev: false
 
-  /@web-widget/schema@1.10.25:
-    resolution: {integrity: sha512-mRrxp0kWrW4kVMfsdrS3iSHuzNXwsnEAFOyl8hMz2UHcs1qvouXOpDIb29xw+z9jgK3qnJIsla+ldknUBiJ7+w==}
-
-  /@web-widget/vite-plugin@1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(vite@5.0.12):
-    resolution: {integrity: sha512-6UNzGdg0Xoq/AlqRNNO3AtgwACsJTRS6DkmZrZAEZ7FC3br53OsDHOti6obxndXmTyEsn+QK2MM8R+2TIV+hGg==}
+  /@web-widget/vite-plugin@1.19.0(vite@5.0.12):
+    resolution: {integrity: sha512-VDRcPDPO0goLlRjfVGKVOu01v1kIAwK0nK+d69bQimWMQyp3NoFWVrcYTHNA7aFT010gcQsiM3oeLzPl3R8gDw==}
     engines: {node: ^14.18 || >= 16.0.0}
     peerDependencies:
-      '@web-widget/helpers': 1.10.25
-      '@web-widget/web-router': 1.10.25
-      '@web-widget/web-widget': 1.10.25
-      vite: ^5.0.12
+      vite: ^5.0.13
     dependencies:
       '@rollup/pluginutils': 5.1.0
-      '@web-widget/helpers': 1.10.25
-      '@web-widget/node': 1.10.25
-      '@web-widget/web-router': 1.10.25(@web-widget/context@1.10.25)(@web-widget/helpers@1.10.25)(@web-widget/html@1.10.25)
-      '@web-widget/web-widget': 1.10.25(@web-widget/context@1.10.25)(@web-widget/helpers@1.10.25)
+      '@web-widget/helpers': 1.19.0
+      '@web-widget/node': 1.19.0
+      '@web-widget/web-router': 1.19.0
+      '@web-widget/web-widget': 1.19.0
       builtin-modules: 3.3.0
       es-module-lexer: 1.4.1
       magic-string: 0.30.7
@@ -1536,43 +1533,35 @@ packages:
     transitivePeerDependencies:
       - rollup
 
-  /@web-widget/vue@1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(vite@5.0.12)(vue@3.4.8):
-    resolution: {integrity: sha512-cJYv/O4UecAgZ9JtWsw8QLDTDTKCsAsKs1HnxHb1IerO2537p1O66/E91q/j7oy4Dc/+Vz7Wde++DkDNUEqe3Q==}
+  /@web-widget/vue@1.19.0(vite@5.0.12)(vue@3.4.8):
+    resolution: {integrity: sha512-nM1AoTconcEgIx6FEfGdv8/Rs4IAL1dNMPwPpEffrTvULETRZuMMRC128xO/zYaN0BCDtJnNnwY5lfzmcSBUig==}
     peerDependencies:
-      '@web-widget/helpers': 1.10.25
-      '@web-widget/web-widget': 1.10.25
-      vite: ^5.0.12
+      vite: ^5.0.13
       vue: '>3.3.3'
     dependencies:
-      '@web-widget/helpers': 1.10.25
-      '@web-widget/vite-plugin': 1.10.25(@web-widget/helpers@1.10.25)(@web-widget/web-router@1.10.25)(@web-widget/web-widget@1.10.25)(vite@5.0.12)
-      '@web-widget/web-widget': 1.10.25(@web-widget/context@1.10.25)(@web-widget/helpers@1.10.25)
+      '@web-widget/helpers': 1.19.0
+      '@web-widget/vite-plugin': 1.19.0(vite@5.0.12)
+      '@web-widget/web-widget': 1.19.0
       vite: 5.0.12
-      vue: 3.4.8(typescript@5.4.2)
+      vue: 3.4.8(typescript@5.4.5)
     transitivePeerDependencies:
-      - '@web-widget/web-router'
       - rollup
     dev: false
 
-  /@web-widget/web-router@1.10.25(@web-widget/context@1.10.25)(@web-widget/helpers@1.10.25)(@web-widget/html@1.10.25):
-    resolution: {integrity: sha512-ZnoaDvNW2D7JKT1a7ESbwKPHZvZLRxKVgm9Au04ypmWpZUs1QxbImVsyU2WjZlrUETaOr3r/LbSmTEIpoeXZew==}
-    peerDependencies:
-      '@web-widget/context': 1.10.25
-      '@web-widget/helpers': 1.10.25
-      '@web-widget/html': 1.10.25
+  /@web-widget/web-router@1.19.0:
+    resolution: {integrity: sha512-LTzgJVUSLiJZ0bWtdYYkMuHxljQSQ7z+o8AiqVGO0Jjs3+NKDRnkYDBjPkOrx9vAzzaqZNQcij7A4gmaw4q+EA==}
     dependencies:
-      '@web-widget/context': 1.10.25
-      '@web-widget/helpers': 1.10.25
-      '@web-widget/html': 1.10.25(@web-widget/helpers@1.10.25)(@worker-tools/html@2.0.0-pre.13)
+      '@web-widget/action': 1.19.0
+      '@web-widget/context': 1.19.0
+      '@web-widget/helpers': 1.19.0
+      '@web-widget/html': 1.19.0
+      '@web-widget/lifecycle-cache': 1.19.0
 
-  /@web-widget/web-widget@1.10.25(@web-widget/context@1.10.25)(@web-widget/helpers@1.10.25):
-    resolution: {integrity: sha512-MEYaGa4HHst12wiNVWUKtxJ4wy1bdy0Ez/VfOMkDgxTS4H5GvLbFLI2o2L0Ksn2I2FfN5Rm0WLlE4JILyzAZHg==}
-    peerDependencies:
-      '@web-widget/context': 1.10.25
-      '@web-widget/helpers': 1.10.25
+  /@web-widget/web-widget@1.19.0:
+    resolution: {integrity: sha512-04ZfIULrdBdbK3JhCc62ICo6EPYMbbRD0iYGYBBr+wXvmXt69eVIm2rhhtN+iSE5YO7Iovf+2DA9aXSRH7xWdw==}
     dependencies:
-      '@web-widget/context': 1.10.25
-      '@web-widget/helpers': 1.10.25
+      '@web-widget/helpers': 1.19.0
+      '@web-widget/lifecycle-cache': 1.19.0
 
   /@worker-tools/html@2.0.0-pre.13:
     resolution: {integrity: sha512-MkmUNNX6fE/2tRM8iWpoSZ6hbZ4srMxzecPdyNvT4cydfYs6YEmFFv0w27839ALQxwtpsDCOKlDLEkhhzbMs9Q==}
@@ -1771,19 +1760,18 @@ packages:
     resolution: {integrity: sha512-zhaCDicdLuWN5UbN5IMnFqNMhNfo919sH85y2/ea+5Yg9TsTkeZxpL+JLbp6cgYFS4sRLp3YV4S6yDuqVWHYOw==}
     engines: {node: '>=6'}
 
-  /c8@8.0.1:
-    resolution: {integrity: sha512-EINpopxZNH1mETuI0DzRA4MZpAUH+IFiRhnmFD3vFr3vdrgxqi3VfE3KL0AIL+zDq8rC9bZqwM/VDmmoe04y7w==}
-    engines: {node: '>=12'}
+  /c8@9.1.0:
+    resolution: {integrity: sha512-mBWcT5iqNir1zIkzSPyI3NCR9EZCVI3WUD+AVO17MVWTSFNyUueXE82qTeampNtTr+ilN/5Ua3j24LgbCKjDVg==}
+    engines: {node: '>=14.14.0'}
     hasBin: true
     dependencies:
       '@bcoe/v8-coverage': 0.2.3
       '@istanbuljs/schema': 0.1.3
       find-up: 5.0.0
-      foreground-child: 2.0.0
+      foreground-child: 3.1.1
       istanbul-lib-coverage: 3.2.2
       istanbul-lib-report: 3.0.1
       istanbul-reports: 3.1.7
-      rimraf: 3.0.2
       test-exclude: 6.0.0
       v8-to-istanbul: 9.2.0
       yargs: 17.7.2
@@ -2178,12 +2166,12 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /foreground-child@2.0.0:
-    resolution: {integrity: sha512-dCIq9FpEcyQyXKCkyzmlPTFNgrCzPudOe+mhvJU5zAtlBnGVy2yKxtfsxK2tQBThwq225jcvBjpw1Gr40uzZCA==}
-    engines: {node: '>=8.0.0'}
+  /foreground-child@3.1.1:
+    resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
+    engines: {node: '>=14'}
     dependencies:
       cross-spawn: 7.0.3
-      signal-exit: 3.0.7
+      signal-exit: 4.1.0
     dev: true
 
   /fresh@0.5.2:
@@ -3328,13 +3316,6 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /rimraf@3.0.2:
-    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
-    hasBin: true
-    dependencies:
-      glob: 7.2.3
-    dev: true
-
   /rollup@4.12.0:
     resolution: {integrity: sha512-wz66wn4t1OHIJw3+XU7mJJQV/2NAfw5OAk6G6Hoo3zcvz/XOfQ52Vgi+AN4Uxoxi0KBBwk2g8zPrTDA4btSB/Q==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
@@ -3402,6 +3383,11 @@ packages:
 
   /signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
+    dev: true
+
+  /signal-exit@4.1.0:
+    resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
+    engines: {node: '>=14'}
     dev: true
 
   /sisteransi@1.0.5:
@@ -3544,7 +3530,7 @@ packages:
     engines: {node: '>=0.6'}
     dev: false
 
-  /ts-jest@29.1.1(@babel/core@7.23.9)(jest@29.6.2)(typescript@5.4.2):
+  /ts-jest@29.1.1(@babel/core@7.23.9)(jest@29.6.2)(typescript@5.4.5):
     resolution: {integrity: sha512-D6xjnnbP17cC85nliwGiL+tpoKN0StpgE0TeOjXQTU6MVCfsB4v7aW05CgQ/1OywGb0x/oy9hHFnN+sczTiRaA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
@@ -3574,7 +3560,7 @@ packages:
       lodash.memoize: 4.1.2
       make-error: 1.3.6
       semver: 7.6.0
-      typescript: 5.4.2
+      typescript: 5.4.5
       yargs-parser: 21.1.1
     dev: true
 
@@ -3607,8 +3593,8 @@ packages:
   /typed-array-utils@0.3.0-pre.0:
     resolution: {integrity: sha512-hzkk8/bpvqCayQnQAno11R8qOWHrkTHR9k+JYVEBpHAQMF2YfPqBMKKkSmeSw2Qd4ri+QugFmj7ca4ckSr4Z4Q==}
 
-  /typescript@5.4.2:
-    resolution: {integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==}
+  /typescript@5.4.5:
+    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -3691,7 +3677,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vue@3.4.8(typescript@5.4.2):
+  /vue@3.4.8(typescript@5.4.5):
     resolution: {integrity: sha512-vJffFOe6DqWsAI10v3tDhb1nJrj7CF3CbdQwOznywAsFNoyvrQ1AWQdcIWJpmRpRnw7NFzstzh6fh4w7n1PNdg==}
     peerDependencies:
       typescript: '*'
@@ -3704,7 +3690,7 @@ packages:
       '@vue/runtime-dom': 3.4.8
       '@vue/server-renderer': 3.4.8(vue@3.4.8)
       '@vue/shared': 3.4.8
-      typescript: 5.4.2
+      typescript: 5.4.5
 
   /walker@1.0.8:
     resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==}
