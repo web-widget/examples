@@ -8,16 +8,18 @@
     "build": "vite build",
     "dev": "vite",
     "start": "node server.js",
-    "test": "NODE_OPTIONS='--experimental-vm-modules' pnpm exec jest"
+    "test": "cross-env VITE_PORT=51205 vitest",
+    "test:ui": "cross-env VITE_PORT=51205 vitest --ui",
+    "test:run": "cross-env VITE_PORT=51205 vitest run"
   },
   "dependencies": {
-    "@web-widget/helpers": "^1.21.2",
-    "@web-widget/html": "^1.21.2",
-    "@web-widget/node": "^1.21.2",
-    "@web-widget/react": "^1.21.2",
-    "@web-widget/vue": "^1.21.2",
-    "@web-widget/web-router": "^1.21.2",
-    "@web-widget/web-widget": "^1.21.2",
+    "@web-widget/helpers": "^1.26.0",
+    "@web-widget/html": "^1.26.0",
+    "@web-widget/node": "^1.26.0",
+    "@web-widget/react": "^1.26.0",
+    "@web-widget/vue": "^1.26.0",
+    "@web-widget/web-router": "^1.26.0",
+    "@web-widget/web-widget": "^1.26.0",
     "koa": "^2.15.3",
     "koa-connect": "^2.1.0",
     "koa-send": "^5.0.1",
@@ -26,20 +28,19 @@
     "vue": "^3.4.29"
   },
   "devDependencies": {
-    "@jest/globals": "^29.7.0",
     "@pnpm/find-workspace-dir": "^6.0.3",
-    "@types/jest": "^29.5.12",
     "@types/koa": "^2.15.0",
     "@types/koa-send": "^4.1.6",
     "@types/react": "npm:types-react@rc",
     "@types/react-dom": "npm:types-react-dom@rc",
     "@vitejs/plugin-react": "^4.3.1",
     "@vitejs/plugin-vue": "^5.0.5",
-    "@web-widget/vite-plugin": "^1.21.2",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.5",
+    "@web-widget/vite-plugin": "^1.26.0",
+    "cross-env": "^7.0.3",
     "typescript": "latest",
-    "vite": "^5.3.1"
+    "vite": "^5.4.0",
+    "@edge-runtime/vm": "^4.0.1",
+    "vitest": "^2.0.5"
   },
   "packageManager": "pnpm@8.4.0",
   "engines": {
