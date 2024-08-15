@@ -22,5 +22,9 @@ export default defineConfig({
   },
   test: {
     environment: 'edge-runtime',
+    api: {
+      port: Number(process.env.TEST_PORT ?? 51204),
+      strictPort: true,
+    },
   },
 });
