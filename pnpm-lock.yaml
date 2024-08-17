@@ -18,26 +18,26 @@ importers:
   react:
     dependencies:
       '@web-widget/helpers':
-        specifier: ^1.26.0
-        version: 1.26.0
+        specifier: ^1.28.0
+        version: 1.28.0
       '@web-widget/html':
-        specifier: ^1.26.0
-        version: 1.26.0
+        specifier: ^1.28.0
+        version: 1.28.0
       '@web-widget/node':
-        specifier: ^1.26.0
-        version: 1.26.0
+        specifier: ^1.28.0
+        version: 1.28.0
       '@web-widget/react':
-        specifier: ^1.26.0
-        version: 1.26.0(react-dom@19.0.0-rc-e684ca66ab-20240619(react@19.0.0-rc-e684ca66ab-20240619))(react@19.0.0-rc-e684ca66ab-20240619)(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
+        specifier: ^1.28.0
+        version: 1.28.0(react-dom@19.0.0-rc-e684ca66ab-20240619(react@19.0.0-rc-e684ca66ab-20240619))(react@19.0.0-rc-e684ca66ab-20240619)(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
       '@web-widget/vue':
-        specifier: ^1.26.0
-        version: 1.26.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))(vue@3.4.29(typescript@5.5.3))
+        specifier: ^1.28.0
+        version: 1.28.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))(vue@3.4.29(typescript@5.5.3))
       '@web-widget/web-router':
-        specifier: ^1.26.0
-        version: 1.26.0
+        specifier: ^1.28.0
+        version: 1.28.0
       '@web-widget/web-widget':
-        specifier: ^1.26.0
-        version: 1.26.0
+        specifier: ^1.28.0
+        version: 1.28.0
       koa:
         specifier: ^2.15.3
         version: 2.15.3
@@ -60,9 +60,6 @@ importers:
       '@edge-runtime/vm':
         specifier: ^4.0.1
         version: 4.0.1
-      '@pnpm/find-workspace-dir':
-        specifier: ^6.0.3
-        version: 6.0.3
       '@types/koa':
         specifier: ^2.15.0
         version: 2.15.0
@@ -82,8 +79,8 @@ importers:
         specifier: ^5.0.5
         version: 5.0.5(vite@5.4.0(@types/node@20.14.6))(vue@3.4.29(typescript@5.5.3))
       '@web-widget/vite-plugin':
-        specifier: ^1.26.0
-        version: 1.26.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
+        specifier: ^1.28.0
+        version: 1.28.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -100,26 +97,26 @@ importers:
   vue:
     dependencies:
       '@web-widget/helpers':
-        specifier: ^1.26.0
-        version: 1.26.0
+        specifier: ^1.28.0
+        version: 1.28.0
       '@web-widget/html':
-        specifier: ^1.26.0
-        version: 1.26.0
+        specifier: ^1.28.0
+        version: 1.28.0
       '@web-widget/node':
-        specifier: ^1.26.0
-        version: 1.26.0
+        specifier: ^1.28.0
+        version: 1.28.0
       '@web-widget/react':
-        specifier: ^1.26.0
-        version: 1.26.0(react-dom@19.0.0-rc-e684ca66ab-20240619(react@19.0.0-rc-e684ca66ab-20240619))(react@19.0.0-rc-e684ca66ab-20240619)(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
+        specifier: ^1.28.0
+        version: 1.28.0(react-dom@19.0.0-rc-e684ca66ab-20240619(react@19.0.0-rc-e684ca66ab-20240619))(react@19.0.0-rc-e684ca66ab-20240619)(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
       '@web-widget/vue':
-        specifier: ^1.26.0
-        version: 1.26.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))(vue@3.4.29(typescript@5.5.3))
+        specifier: ^1.28.0
+        version: 1.28.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))(vue@3.4.29(typescript@5.5.3))
       '@web-widget/web-router':
-        specifier: ^1.26.0
-        version: 1.26.0
+        specifier: ^1.28.0
+        version: 1.28.0
       '@web-widget/web-widget':
-        specifier: ^1.26.0
-        version: 1.26.0
+        specifier: ^1.28.0
+        version: 1.28.0
       koa:
         specifier: ^2.15.3
         version: 2.15.3
@@ -142,9 +139,6 @@ importers:
       '@edge-runtime/vm':
         specifier: ^4.0.1
         version: 4.0.1
-      '@pnpm/find-workspace-dir':
-        specifier: ^6.0.3
-        version: 6.0.3
       '@types/koa':
         specifier: ^2.15.0
         version: 2.15.0
@@ -164,8 +158,8 @@ importers:
         specifier: ^5.0.5
         version: 5.0.5(vite@5.4.0(@types/node@20.14.6))(vue@3.4.29(typescript@5.5.3))
       '@web-widget/vite-plugin':
-        specifier: ^1.26.0
-        version: 1.26.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
+        specifier: ^1.28.0
+        version: 1.28.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -492,18 +486,6 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@pnpm/constants@7.1.1':
-    resolution: {integrity: sha512-31pZqMtjwV+Vaq7MaPrT1EoDFSYwye3dp6BiHIGRJmVThCQwySRKM7hCvqqI94epNkqFAAYoWrNynWoRYosGdw==}
-    engines: {node: '>=16.14'}
-
-  '@pnpm/error@5.0.3':
-    resolution: {integrity: sha512-ONJU5cUeoeJSy50qOYsMZQHTA/9QKmGgh1ATfEpCLgtbdwqUiwD9MxHNeXUYYI/pocBCz6r1ZCFqiQvO+8SUKA==}
-    engines: {node: '>=16.14'}
-
-  '@pnpm/find-workspace-dir@6.0.3':
-    resolution: {integrity: sha512-0iJnNkS4T8lJE4ldOhRERgER1o59iHA1nMlvpUI5lxNC9SUruH6peRUOlP4/rNcDg+UQ9u0rt5loYOnWKCojtw==}
-    engines: {node: '>=16.14'}
-
   '@rollup/pluginutils@5.1.0':
     resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
     engines: {node: '>=14.0.0'}
@@ -740,49 +722,49 @@ packages:
   '@vue/shared@3.4.29':
     resolution: {integrity: sha512-hQ2gAQcBO/CDpC82DCrinJNgOHI2v+FA7BDW4lMSPeBpQ7sRe2OLHWe5cph1s7D8DUQAwRt18dBDfJJ220APEA==}
 
-  '@web-widget/action@1.26.0':
-    resolution: {integrity: sha512-Sk/qLahSkS2Ysaohz2KE56FLQuOH/sr4L1YZbkGSAN8/GtS2MMjY/L8oXPD1LsoDhmSXXdKqeS+M5Jp/aeu8Hg==}
+  '@web-widget/action@1.28.0':
+    resolution: {integrity: sha512-Zav1oyr3f121NtpkZgW8bwvGCClLIBre3ZfjwePVP4+mfkkJrX5+Zp88V0PyywzXM6ta5inweXXQrRmlfxjl/g==}
 
-  '@web-widget/context@1.26.0':
-    resolution: {integrity: sha512-gLzo/kkNnUyDbBymFGGrW38Qs1WknYqbKQBglblN4LDBKaf28W2ezLzYja7xiX3j08f5DwSVbXx25O8SlxtVVA==}
+  '@web-widget/context@1.28.0':
+    resolution: {integrity: sha512-GSpipoQWe/f9j5mnx9FBIIBvIZoTCRyp19tjQf4sbeOYdFgRvrjFsLEAt1FppBwkUHwM9qffwhGdHasYPHfPkQ==}
 
-  '@web-widget/helpers@1.26.0':
-    resolution: {integrity: sha512-wgSTI8iSeAL8Awybp9lEbZfA9ORRSHlGYJHKPVfdoVZmiFsCBr0XbxUFOUKAu353nwBo3kfguH7Kmyd8bEZKog==}
+  '@web-widget/helpers@1.28.0':
+    resolution: {integrity: sha512-XKVvdrdPkuJ3YDKG0i2oZ991vUkTwS1ojI5+TjJ0+01tlXm2hGoB848hC57Ty5nFrbgaaYLFrP+++2rulRGOtQ==}
 
-  '@web-widget/html@1.26.0':
-    resolution: {integrity: sha512-3DiAtPkhRNJW9E5P1sLNKQh+NT9gEMboADRNvgpigL4blfESjL1EfwXOX/IaPAEzWBJQFw3xbH/RKwwD/NzQDw==}
+  '@web-widget/html@1.28.0':
+    resolution: {integrity: sha512-hIiw/KPQ3zh/AhuGZPpka+jAxB1jYn36qZBa90BkYs8mhhEjp96a4fgzttxXKW6mqD2+ecMS/woEC+sEJnPBag==}
 
-  '@web-widget/lifecycle-cache@1.26.0':
-    resolution: {integrity: sha512-9Gq6UqcCNCZ/UKdJ+h9yMEyOYLgIEUoZsttdnF+qEvhXShzWnpLhtl90X7PDZPZ8Pea9+QGln+oH5tq/GiCNPA==}
+  '@web-widget/lifecycle-cache@1.28.0':
+    resolution: {integrity: sha512-bGi9TMhhn1GM2Fdl+QwKPGSKHtAE1S4FV6HAWH+ZnP3Vc1rILXx1c8VIDILTlP5PLB0qh9wYOnZT4ysO+axIRg==}
 
-  '@web-widget/node@1.26.0':
-    resolution: {integrity: sha512-Nu0bUv8qFTj7Q5EFIR+i9tEXhhI2A6dtO+YF7bTy+xJ85CQ2DH0fehzt+rD7lLx9tpP/S8OrqooZJ36HLIKKHQ==}
+  '@web-widget/node@1.28.0':
+    resolution: {integrity: sha512-TVMEia4MxuW7pbwm15o3qOrUOviF5c49boaNsjC+xYJdf+lAP0ZCWy64BiscZXtbMSa4mSfaUqKWbGz2ia93ew==}
     engines: {node: '>=18'}
 
-  '@web-widget/react@1.26.0':
-    resolution: {integrity: sha512-cAUNrGCJRmOn84v4WBOms7dEgwB4OyakhmaKZdc37c9KTt3wgZHpnHI/JL9bULARkZaWwTZ0dPPTacbtdHGsLw==}
+  '@web-widget/react@1.28.0':
+    resolution: {integrity: sha512-IiIGLnM+DrZba6MDzeTXhcv0Oc/zRFEOx7db6hFGVwvDXqNr8rtAgcxX+Co9j3DbrC2M2Ng+ZGzGb1p+fc981g==}
     peerDependencies:
       react: rc
       react-dom: rc
       vite: ^5.4.0
 
-  '@web-widget/vite-plugin@1.26.0':
-    resolution: {integrity: sha512-dAr4d/uho/T+Wip1g9VVtmhedkQtfTcdzPUNm2yknq0/2lSgvGW+7VEQ2yX+FGGgacWyP/79+df3REs6w+Scjg==}
+  '@web-widget/vite-plugin@1.28.0':
+    resolution: {integrity: sha512-fIGjYRCl/6c03kw8VfSLct0aYrsWy+8fcLmMAk7QnpcZ/uxkGQ9D6lbjXiVS7db8ub5WwWegEVS5jDrlmLP9Vw==}
     engines: {node: '>= 18.0.0'}
     peerDependencies:
       vite: ^5.4.0
 
-  '@web-widget/vue@1.26.0':
-    resolution: {integrity: sha512-h3IM1II7UYa5964jc7H+7CGaDcbeyYL0Z303QMzFOYxr1AcFhjWYoSYCIv2YFUm2o/AGRNSiKOSyUOhsrpZOYw==}
+  '@web-widget/vue@1.28.0':
+    resolution: {integrity: sha512-DdRgkaiKYBt0MHN3nSgA7yGsz3znjLfoXaJhy+24o6k9sjF9e/7Kcfv5Bfkcur2Hye9JuGD+Rl8ULPCJV0ztXQ==}
     peerDependencies:
       vite: ^5.4.0
       vue: '>3.3.3'
 
-  '@web-widget/web-router@1.26.0':
-    resolution: {integrity: sha512-OD55Z5iP3thF1WYnx+yUuQkT6y0QbYfJSDs8fgDU/KSB5QQETM83gBaIWZry7zSrKZulSyITCdHNPhNiV/iWAw==}
+  '@web-widget/web-router@1.28.0':
+    resolution: {integrity: sha512-SEERdux1wI3d+OZoMDivb4c+qKKpWgvjKRq9wYUUuRgMNbLH7/Z+Z+wFnT1yIqHAz1l820azUJIX5s/yZdAWVQ==}
 
-  '@web-widget/web-widget@1.26.0':
-    resolution: {integrity: sha512-gxrSCG2JPbpbSy0pTdDUvq+ERkn3yKzsGiL/wlb4OAxlMyRfC//uILb4AD+8md1Q9TMZTVeE+F9bephFnefqpQ==}
+  '@web-widget/web-widget@1.28.0':
+    resolution: {integrity: sha512-inm1LozZxHDKoDfKzo2SohgT/RqpoAXDGu8Gpr8VL1dCVyL+krC4dNg3moikc0imKhjmVvhzwh4lOW42ETFCXQ==}
 
   '@worker-tools/html@2.0.0-pre.13':
     resolution: {integrity: sha512-MkmUNNX6fE/2tRM8iWpoSZ6hbZ4srMxzecPdyNvT4cydfYs6YEmFFv0w27839ALQxwtpsDCOKlDLEkhhzbMs9Q==}
@@ -1898,17 +1880,6 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@pnpm/constants@7.1.1': {}
-
-  '@pnpm/error@5.0.3':
-    dependencies:
-      '@pnpm/constants': 7.1.1
-
-  '@pnpm/find-workspace-dir@6.0.3':
-    dependencies:
-      '@pnpm/error': 5.0.3
-      find-up: 5.0.0
-
   '@rollup/pluginutils@5.1.0(rollup@4.18.0)':
     dependencies:
       '@types/estree': 1.0.5
@@ -2188,53 +2159,53 @@ snapshots:
 
   '@vue/shared@3.4.29': {}
 
-  '@web-widget/action@1.26.0': {}
+  '@web-widget/action@1.28.0': {}
 
-  '@web-widget/context@1.26.0':
+  '@web-widget/context@1.28.0':
     dependencies:
       unctx: 2.3.1
 
-  '@web-widget/helpers@1.26.0':
+  '@web-widget/helpers@1.28.0':
     dependencies:
       '@edge-runtime/cookies': 4.1.1
       '@edge-runtime/user-agent': 1.4.1
-      '@web-widget/action': 1.26.0
-      '@web-widget/context': 1.26.0
-      '@web-widget/lifecycle-cache': 1.26.0
+      '@web-widget/action': 1.28.0
+      '@web-widget/context': 1.28.0
+      '@web-widget/lifecycle-cache': 1.28.0
 
-  '@web-widget/html@1.26.0':
+  '@web-widget/html@1.28.0':
     dependencies:
-      '@web-widget/helpers': 1.26.0
+      '@web-widget/helpers': 1.28.0
       '@worker-tools/html': 2.0.0-pre.13
       whatwg-stream-to-async-iter: 0.6.2
 
-  '@web-widget/lifecycle-cache@1.26.0':
+  '@web-widget/lifecycle-cache@1.28.0':
     dependencies:
-      '@web-widget/context': 1.26.0
+      '@web-widget/context': 1.28.0
 
-  '@web-widget/node@1.26.0':
+  '@web-widget/node@1.28.0':
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
       '@edge-runtime/primitives': 4.1.0
 
-  '@web-widget/react@1.26.0(react-dom@19.0.0-rc-e684ca66ab-20240619(react@19.0.0-rc-e684ca66ab-20240619))(react@19.0.0-rc-e684ca66ab-20240619)(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))':
+  '@web-widget/react@1.28.0(react-dom@19.0.0-rc-e684ca66ab-20240619(react@19.0.0-rc-e684ca66ab-20240619))(react@19.0.0-rc-e684ca66ab-20240619)(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))':
     dependencies:
-      '@web-widget/helpers': 1.26.0
-      '@web-widget/vite-plugin': 1.26.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
-      '@web-widget/web-widget': 1.26.0
+      '@web-widget/helpers': 1.28.0
+      '@web-widget/vite-plugin': 1.28.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
+      '@web-widget/web-widget': 1.28.0
       react: 19.0.0-rc-e684ca66ab-20240619
       react-dom: 19.0.0-rc-e684ca66ab-20240619(react@19.0.0-rc-e684ca66ab-20240619)
       vite: 5.4.0(@types/node@20.14.6)
     transitivePeerDependencies:
       - rollup
 
-  '@web-widget/vite-plugin@1.26.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))':
+  '@web-widget/vite-plugin@1.28.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
-      '@web-widget/helpers': 1.26.0
-      '@web-widget/node': 1.26.0
-      '@web-widget/web-router': 1.26.0
-      '@web-widget/web-widget': 1.26.0
+      '@web-widget/helpers': 1.28.0
+      '@web-widget/node': 1.28.0
+      '@web-widget/web-router': 1.28.0
+      '@web-widget/web-widget': 1.28.0
       builtin-modules: 3.3.0
       es-module-lexer: 1.5.3
       magic-string: 0.30.10
@@ -2246,28 +2217,28 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  '@web-widget/vue@1.26.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))(vue@3.4.29(typescript@5.5.3))':
+  '@web-widget/vue@1.28.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))(vue@3.4.29(typescript@5.5.3))':
     dependencies:
-      '@web-widget/helpers': 1.26.0
-      '@web-widget/vite-plugin': 1.26.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
-      '@web-widget/web-widget': 1.26.0
+      '@web-widget/helpers': 1.28.0
+      '@web-widget/vite-plugin': 1.28.0(rollup@4.18.0)(vite@5.4.0(@types/node@20.14.6))
+      '@web-widget/web-widget': 1.28.0
       vite: 5.4.0(@types/node@20.14.6)
       vue: 3.4.29(typescript@5.5.3)
     transitivePeerDependencies:
       - rollup
 
-  '@web-widget/web-router@1.26.0':
+  '@web-widget/web-router@1.28.0':
     dependencies:
-      '@web-widget/action': 1.26.0
-      '@web-widget/context': 1.26.0
-      '@web-widget/helpers': 1.26.0
-      '@web-widget/html': 1.26.0
-      '@web-widget/lifecycle-cache': 1.26.0
+      '@web-widget/action': 1.28.0
+      '@web-widget/context': 1.28.0
+      '@web-widget/helpers': 1.28.0
+      '@web-widget/html': 1.28.0
+      '@web-widget/lifecycle-cache': 1.28.0
 
-  '@web-widget/web-widget@1.26.0':
+  '@web-widget/web-widget@1.28.0':
     dependencies:
-      '@web-widget/helpers': 1.26.0
-      '@web-widget/lifecycle-cache': 1.26.0
+      '@web-widget/helpers': 1.28.0
+      '@web-widget/lifecycle-cache': 1.28.0
 
   '@worker-tools/html@2.0.0-pre.13':
     dependencies:

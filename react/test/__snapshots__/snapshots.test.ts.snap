@@ -47,8 +47,12 @@ Headers {
         "name": "content-type",
         "value": "text/html; charset=utf-8",
       },
+      "x-module-source" => {
+        "name": "x-module-source",
+        "value": "source://routes/index@route.tsx",
+      },
       "x-powered-by" => {
-        "name": "x-powered-by",
+        "name": "X-Powered-By",
         "value": "@web-widget/web-router",
       },
     },
@@ -112,8 +116,12 @@ Headers {
         "name": "content-type",
         "value": "text/html; charset=utf-8",
       },
+      "x-module-source" => {
+        "name": "x-module-source",
+        "value": "source://routes/about@route.tsx",
+      },
       "x-powered-by" => {
-        "name": "x-powered-by",
+        "name": "X-Powered-By",
         "value": "@web-widget/web-router",
       },
     },
